@@ -24,7 +24,7 @@ module dividir (input [19:0]divisor,
         // Imprime os valores a cada iteração
         $display("-----------");
         $display("Iteracao %0d", i);
-        $display("ApResultado: %b", apDividendo);
+        $display("ApDividendo: %b", apDividendo);
         $display("ApDivisor: %b", apDivisor);
         $display("equacaoF: %b", equacaoF);
         $display("-----------");
